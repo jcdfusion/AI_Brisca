@@ -1,14 +1,15 @@
 package com.ai.brisca_agent;
 
 import com.ai.brisca_agent.entities.Card;
+import sun.reflect.generics.tree.Tree;
+
+import javax.swing.tree.TreeNode;
 
 /**
  *
  */
 public class Agent {
     public Card selectedPlay(String triunfo, Card[] myCards, Card[] tableCards) {
-        ActualPlay ply = new ActualPlay(triunfo,tableCards);
-        Card highest = ply.highestCard();
         //TODO
 
 
@@ -22,5 +23,8 @@ public class Agent {
     }
     public void minValue(){
         //TODO
+    }
+    private void createTree(){
+
     }
 }

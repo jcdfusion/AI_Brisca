@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class ActualPlay {
     private Card highestCard = null;
 
-    public ActualPlay(String triunfo, Card[] tableCards) {
+    /*public ActualPlay(String triunfo, Card[] tableCards) {
         ArrayList<Card> triunfoCards = new ArrayList<>();
         for (Card c : tableCards) {
             if (c.getSuit().equalsIgnoreCase(triunfo))
@@ -31,7 +31,7 @@ public class ActualPlay {
                 }
             }
         }
-    }
+    }*/
     public Card highestCard(){
         return highestCard;
     }
